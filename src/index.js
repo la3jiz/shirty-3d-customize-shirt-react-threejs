@@ -1,11 +1,10 @@
 import { createRoot } from 'react-dom/client'
 import './styles.css'
-import { App as Canvas } from './Canvas'
-import Overlay from './Overlay'
-
+import { Overlay } from './components'
+import { Canvas } from './components'
 createRoot(document.getElementById('root')).render(
   <>
-    <Canvas />
+<Canvas/>
     <Overlay />
   </>
 )
